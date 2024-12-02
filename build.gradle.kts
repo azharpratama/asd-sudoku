@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "org.example"
+group = "sudoku"
 version = "1.0-SNAPSHOT"
 
 repositories {
@@ -20,6 +20,6 @@ tasks.test {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = "org.example.SudokuMain"
+        attributes["Main-Class"] = "sudoku.SudokuMain"
     }
 }
